@@ -99,7 +99,8 @@ p {
 }
 
 .section {
-  padding: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 /* Animations */
@@ -158,4 +159,92 @@ body.light-mode .btn-primary {
   background-color: var(--accent-primary);
   color: #fff;
   transform: translateY(-2px);
+}
+
+/* Typography and Layout Components */
+.hero-title {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}
+.hero-subtitle {
+  font-size: 2.5rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.hero-text {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+}
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+}
+.section-title {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.about-title {
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+}
+.about-panel {
+  padding: 3rem;
+}
+.about-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.about-text-lead {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  .hero-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero-text {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  .hero-actions {
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  .hero-actions .btn-primary, 
+  .hero-actions .btn-secondary {
+    flex: 1 1 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-title {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .about-panel {
+    padding: 1.5rem;
+  }
 }

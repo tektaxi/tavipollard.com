@@ -83,10 +83,16 @@
     gap: 1rem;
   }
   .navbar-menu {
-    gap: 1.5rem;
+    gap: 1rem;
   }
   .navbar {
-    width: 95%;
+    width: calc(100% - 3rem);
     padding: 1rem 1.5rem;
+  }
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 0.95rem;
   }
 }

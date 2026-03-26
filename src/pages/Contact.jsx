@@ -17,8 +17,8 @@ const Contact = () => {
   return (
     <div className="container section slide-up" id="contact">
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-        <h1 className="text-accent" style={{ fontSize: '4rem', marginBottom: '1rem', textAlign: 'center' }}>Get in Touch</h1>
-        <p style={{ fontSize: '1.2rem', marginBottom: '3rem', textAlign: 'center', color: 'var(--text-secondary)' }}>
+        <h1 className="text-accent contact-title">Get in Touch</h1>
+        <p className="contact-subtitle">
           {contactInfo.message}
         </p>
 

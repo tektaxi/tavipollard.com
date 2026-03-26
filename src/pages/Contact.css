@@ -70,8 +70,27 @@ body.light-mode .form-group textarea:focus {
   animation: slideUpFade 0.4s ease forwards;
 }
 
+.contact-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
 @media (max-width: 768px) {
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+  .contact-title {
+    font-size: 2.8rem;
+  }
+  .contact-subtitle {
+    font-size: 1.1rem;
   }
 }

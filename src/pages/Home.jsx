@@ -13,15 +13,15 @@ const Home = () => {
     <>
       <div className="container section slide-up" id="home">
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <h1 className="text-accent" style={{ fontSize: '4.5rem', marginBottom: '1rem' }}>Hi, I'm {personalInfo.name.split(' ')[0]}.</h1>
-          <h2 style={{ fontSize: '2.5rem', color: 'var(--text-secondary)', fontWeight: 400, marginBottom: '2rem' }}>
+          <h1 className="text-accent hero-title">Hi, I'm {personalInfo.name.split(' ')[0]}.</h1>
+          <h2 className="hero-subtitle">
             {personalInfo.role}
           </h2>
-          <p style={{ fontSize: '1.25rem', marginBottom: '3rem' }}>
+          <p className="hero-text">
             {personalInfo.bio}
           </p>
 
-          <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '5rem', flexWrap: 'wrap' }}>
+          <div className="hero-actions">
             <a href={`${contactInfo.linkedin}`} target="_blank" rel="noreferrer" className="btn-primary">LinkedIn</a>
             {/* <button onClick={() => scrollTo('experience')} className="btn-primary">View Experience</button> */}
             <a href={`${import.meta.env.BASE_URL}${personalInfo.resumeUrl}`} target="_blank" rel="noreferrer" className="btn-secondary">View Resume</a>

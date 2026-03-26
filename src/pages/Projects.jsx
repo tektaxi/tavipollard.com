@@ -4,9 +4,9 @@ import { projects } from '../data/content';
 const Projects = () => {
   return (
     <div className="container section slide-up" id="projects">
-      <h2 className="text-accent" style={{ fontSize: '3.5rem', marginBottom: '3rem', textAlign: 'center' }}>Projects</h2>
+      <h2 className="text-accent section-title">Projects</h2>
       
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxWidth: '1100px', margin: '0 auto' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', maxWidth: '1100px', margin: '0 auto' }}>
         {projects.map((project) => (
           <div key={project.id} className="glass-panel" style={{ padding: '2rem', display: 'flex', flexDirection: 'column' }}>
             <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>{project.title}</h3>

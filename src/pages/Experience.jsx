@@ -5,7 +5,7 @@ import './Experience.css';
 const Experience = () => {
   return (
     <div className="container section slide-up" id="experience">
-      <h1 className="text-accent" style={{ fontSize: '3.5rem', marginBottom: '3rem', textAlign: 'center' }}>Experience</h1>
+      <h1 className="text-accent section-title">Experience</h1>
       
       <div className="timeline">
         {experiences.map((exp) => (
