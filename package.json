@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "private": true,
-  "homepage": "https://tektaxi.github.io/tavipollard.com",
+  "homepage": "https://tavipollard.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
