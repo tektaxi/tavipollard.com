@@ -1,5 +1,13 @@
 # React + Vite
 
+## Local setup
+
+This project now targets Vite 8 and requires a newer Node runtime.
+
+- Use Node `20.19+` or `22.12+`
+- Install dependencies: `npm install`
+- Start dev server: `npm run dev`
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
