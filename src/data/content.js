@@ -70,7 +70,7 @@ export const projects = [
 ];
 
 export const contactInfo = {
-  email: "tavipollard@gmail.com",
+  email: "contact@tavipollard.com",
   github: "https://github.com/tektaxi",
   linkedin: "https://linkedin.com/in/tavi-pollard/",
   message: ""
